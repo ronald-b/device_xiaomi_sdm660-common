@@ -135,7 +135,8 @@ PRODUCT_COPY_FILES += \
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
-    com.dsi.ant.antradio_library
+    com.dsi.ant.antradio_library \
+    com.dsi.ant@1.0.vendor
 
 # ANT Permission
 PRODUCT_COPY_FILES += \
