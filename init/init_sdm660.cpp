@@ -166,8 +166,9 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
     
+    property_override("ro.build.description", "redfin-user 11 RQ2A.210305.006 7119741 release-keys");
     property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
-        "ro.vendor.build.fingerprint", "xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V9.5.11.0.ODCCNFA:user/release-keys");
+        "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys");
   
    std::string product = GetProperty("ro.product.vendor.device", "");	
    if (product.find("whyred") != std::string::npos)
