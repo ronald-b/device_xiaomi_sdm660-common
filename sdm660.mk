@@ -534,10 +534,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
-# Shims
-PRODUCT_PACKAGES += \
-    libcutils_shim
-
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \

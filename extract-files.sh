@@ -94,10 +94,6 @@ function blob_fixup() {
         sed -i 's/xml version="2.0"/xml version="1.0"/' "${2}"
         sed -i "s|product|system_ext|g" "${2}"
         ;;
-        
-    system_ext/lib64/libdpmframework.so)
-        "${PATCHELF}" --add-needed libcutils_shim.so "${2}"
-        ;;
 
     vendor/bin/mlipayd@1.1)
         "${PATCHELF}" --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "${2}"
