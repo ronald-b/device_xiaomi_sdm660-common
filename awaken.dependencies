@@ -16,5 +16,30 @@
     "repository"  : "xiaomi-sdm660/android_vendor_xiaomi_MiuiCamera",
     "target_path" : "vendor/xiaomi/MiuiCamera",
     "branch"      : "sdm660"
+  },
+  
+    "remote"      : "github",
+    "repository"  : "AOSP-11/hardware_qcom-caf_audio_msm8998",
+    "target_path" : "hardware/qcom-caf/sdm660/audio",
+    "branch"      : "11"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "OdSazib/hardware_qcom-caf_display_msm8998",
+    "target_path" : "hardware/qcom-caf/sdm660/display",
+    "branch"      : "11"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "OdSazib/hardware_qcom-caf_media_msm8998",
+    "target_path" : "hardware/qcom-caf/sdm660/media",
+    "branch"      : "11"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "OdSazib/android_vendor_qcom_opensource_power",
+    "target_path" : "vendor/qcom/opensource/power",
+    "override"    : "true",
+    "branch"      : "lineage-18.1"
   }
 ]
