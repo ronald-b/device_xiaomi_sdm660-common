@@ -125,8 +125,8 @@ vendor/lib64/libbtnv.so|a6793a7b93fa607fcec39da7479566f84ed39aa4
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268cec441278cca3d
 vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|e08969ef1897ec5958894323f7d6e730a1d7ce25
 
-# Charger - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/bin/hvdcp_opti|7e2c6def67e8d3eccb7c2df80fbe73652aef2a0e
+# Charger - from curtana V12.0.1.7.RJWMIXM
+vendor/bin/hvdcp_opti|e40370fdb46fdbd85b7d618b62e9439ca562e289
 
 # CNE - from curtana V12.0.1.7.RJWMIXM
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|88da95df5925ab3c173f951cfe56c95699908359
@@ -466,9 +466,9 @@ vendor/lib64/libmlipay@1.1.so|4dfa016779bcba8da2ff293e5112c678044c6474
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|d0bb854210433066945f9d6e7943d08a8435e746
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|785984e3c3b30671b78624484899dd418979cb56
 
-# Perf - from LA.UM.8.2.r1-07400-sdm660.0
-vendor/lib/libqti-perfd-client.so|b97271d03ec5aab93125c750181c6ff03d136221
-vendor/lib64/libqti-perfd-client.so|660d1d2a58e10616971c807b638f95b139b5a8e0
+# Perf - from curtana V12.0.1.7.RJWMIXM
+vendor/lib/libqti-perfd-client.so|64962dd4d5e8b7fd11927c70778f79ea1cd140dd
+vendor/lib64/libqti-perfd-client.so|b6881ca5b77335490bd91c6803feb5d31cbf8e92
 
 # Peripheral manager - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/bin/pm-proxy|3182c937d93cc02c6721c053f57fc6794ad7edb3
@@ -729,13 +729,13 @@ vendor/lib/libsubsystem_control.so|fe08da9f6a0e73a97231055c4ca8279a68432476
 vendor/lib64/libSubSystemShutdown.so|c934b2df57be86fdfb9bdf2046f9289af5e7a62c
 vendor/lib64/libsubsystem_control.so|b2e8c7eb9d999137ae99ea38f85d7dac59c6dcc2
 
-# Thermal - from wayne Miui 9.7.4
-vendor/bin/thermal-engine|0be3686204fc600f8dd8607fff10cd7fd273186e
-vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
+# Thermal - from curtana V12.0.1.7.RJWMIXM
+vendor/bin/thermal-engine|1b275fff739203b566a189fb4247383dd6e76e15
+vendor/lib/libthermalfeature.so|57b7cb8b92ee3d0002f8884b1379653300ed5d47
+vendor/lib64/libthermalfeature.so|039c92ea5b7532568c63035a51426d9801eaa097
 vendor/lib64/libthermalioctl.so|7c7a784d8ead3d932d164cfc953b09e621060d90
--vendor/lib/libthermalclient.so|d5c6c82b15423e95e991d757bab1b4a27fb88848
--vendor/lib64/libthermalclient.so|3412ce67da6a58d7f44a65e6b8af8cc5bfb9f506
+-vendor/lib/libthermalclient.so|31533667b7f8137670189a14c68ccb51c7ca6dab
+-vendor/lib64/libthermalclient.so|41274c82e1a472d12b2ebcb4156f7f77b109efa8
 
 # Time services - from LA.UM.8.2.r1-07400-sdm660.0
 -vendor/app/TimeService/TimeService.apk|c935b678fdaed033513f044f6492361c3370f9f0
