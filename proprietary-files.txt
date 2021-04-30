@@ -128,7 +128,7 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|e08969ef1897ec5958894323f7
 # Charger - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/bin/hvdcp_opti|7e2c6def67e8d3eccb7c2df80fbe73652aef2a0e
 
-# CNE - from curtana V12.0.1.0.RJWINXM
+# CNE - from curtana V12.0.1.7.RJWMIXM
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|88da95df5925ab3c173f951cfe56c95699908359
 system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar|b30a8b9a9fad4dfb8ce231084ea0baf99f54931d
 system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar|e8e9b049f09aee835084cc4bca081c3905221d7a
@@ -215,7 +215,7 @@ vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8a
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|ef77bab21bad3f992bdf32243cdd2f90f8b8f3ad
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|c740f7d48227ee499ef8edb60c4e177052a108d3
 
-# DPM - from curtana V12.0.1.0.RJWINXM
+# DPM - from curtana V12.0.1.7.RJWMIXM
 framework/tcmclient.jar|22858e8bb7e3f956e487dc6764ad8250f118d7ac
 system_ext/bin/dpmd|bc22fa258f3975744e248dc7d9f26a00a9981ca7
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -489,13 +489,13 @@ vendor/lib64/vendor.display.color@1.1.so|d2dfc3fff6aaf7989110ebe05af154186e53501
 vendor/lib64/vendor.display.color@1.2.so|7b967425caa1205e331484e1e1484ac3bd355067
 vendor/lib64/vendor.display.postproc@1.0.so|c9c96ff50b6ff8989fac9fdf35d282a996ea477a
 
-# QRTR from LA.UM.8.2.1.r1-05600-sdm660
+# QRTR from curtana V12.0.1.7.RJWMIXM
 vendor/bin/qrtr-cfg|a7f9d9bf5cbd2e61c5853b6b2777ec20336e9866
 vendor/bin/qrtr-lookup|fb6cffbb7390b1b7f0cefe6c49ea8530d548dcee
 vendor/bin/qrtr-ns|d43bfbc74ebc51b4ce88a628579325388710cd7b
 vendor/lib64/libqrtr.so|c7ca700c1f4759aa673a6c5478ca492487bbea70
 
-# QMI - from curtana V12.0.1.0.RJWINXM
+# QMI - from curtana V12.0.1.7.RJWMIXM
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 vendor/bin/irsc_util|29a94d176e5df22bec094907b6c940c661d5f328
@@ -534,7 +534,7 @@ vendor/lib64/libqmi_encdec.so|d06ffda60fc990364d64cbf519d96277225dcf56
 vendor/lib64/libqmi_legacy.so|f031e04a2fc5bb18406667145c2eeea31a3a18fc
 vendor/lib64/libqmiservices.so|5065de773ec9b41658ca94c6bbf6ddd4acb3bc70
 
-# Radio - from curtana V12.0.1.0.RJWINXM
+# Radio - from curtana V12.0.1.7.RJWMIXM
 -system_ext/app/DeviceInfo/DeviceInfo.apk|f7e24e370c49a74c138c565b0f87156972db4673
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|20da64a1fbb4d9c04c763333c4d9a0b7c1053fb9
 -system_ext/app/datastatusnotification/datastatusnotification.apk|a708487221c7aa5051b2e80af2c89a8148b1cc23
@@ -581,7 +581,7 @@ vendor/lib64/libqcmaputils.so|6b404fb74f8c371f025992c8be9c0b93fada93f8
 vendor/lib64/libqcrilFramework.so|4a4a3177ca2cb9747b64c2ca88d60defeb85d058
 vendor/lib64/libqcrildatactl.so|aaa169e1ce510498b12ba00b62f108b8ae171b43
 vendor/lib64/libqsocket.so|8097bfbf5ec54222e46a027683fde03f8cc53626
-vendor/lib64/libril-qc-hal-qmi.so|2b1cc15a1c390b2941d1f1cf44497b159f8c5a6c
+vendor/lib64/libril-qc-hal-qmi.so|00315304916d754f21bfa4dc9dddc8ea62b5e11f
 vendor/lib64/libril-qc-logger.so|555092d6bbb41c98c54850c90d304f9a95ffa5d7
 vendor/lib64/libril-qc-ltedirectdisc.so|b3bf3b6e2a3d3358713cbed812b97549ed0260c5
 vendor/lib64/libril-qc-radioconfig.so|e57712336e6909440fb8a3786196a836c0e10e24
@@ -620,7 +620,7 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|1ed6872929020
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|93340d59f05cdcb580d934fb5c8a36e2b87f17a3
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|8bc817a576a63842570cd4f021ef1d4751d5f4cf
 
-# Radio - IMS - from curtana V12.0.1.0.RJWINXM
+# Radio - IMS - from curtana V12.0.1.7.RJWMIXM
 -system_ext/app/imssettings/imssettings.apk|7eddaa57cbab2aed139a754be674ae1101a66680
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
