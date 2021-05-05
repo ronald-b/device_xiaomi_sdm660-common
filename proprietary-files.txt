@@ -98,8 +98,8 @@ vendor/lib64/soundfx/libqcbassboost.so|927ded057e9b098144617ce8416c82a6d68c3865
 vendor/lib64/soundfx/libqcreverb.so|5bd29987814ca813e49cd1a188ba4250244b82fa
 vendor/lib64/soundfx/libqcvirt.so|a362fce913d3ef85cd4d65fcfd09f53c00043bd6
 
-# Audio FX modules - from LA.UM.8.2.r1-07500-sdm660.0
-vendor/lib/soundfx/libmisoundfx.so|569ee2df586e95116b79cfb3d89429f2032a7a76
+# Audio FX modules - from ginkgo MIUI V12.0.1.0.RCOCNXM
+vendor/lib/soundfx/libmisoundfx.so|b96beb7c9aaded46a15bdbe8079b84d2beec9911
 
 # Bluetooth (aptX) - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
