@@ -735,13 +735,10 @@ vendor/lib/libsubsystem_control.so|fe08da9f6a0e73a97231055c4ca8279a68432476
 vendor/lib64/libSubSystemShutdown.so|c934b2df57be86fdfb9bdf2046f9289af5e7a62c
 vendor/lib64/libsubsystem_control.so|b2e8c7eb9d999137ae99ea38f85d7dac59c6dcc2
 
-# Thermal - from wayne Miui 9.7.4
--vendor/lib/libthermalclient.so|d5c6c82b15423e95e991d757bab1b4a27fb88848
--vendor/lib64/libthermalclient.so|3412ce67da6a58d7f44a65e6b8af8cc5bfb9f506
-vendor/bin/thermal-engine|0be3686204fc600f8dd8607fff10cd7fd273186e
-vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
-vendor/lib64/libthermalioctl.so|7c7a784d8ead3d932d164cfc953b09e621060d90
+# Thermal - from LA.UM.9.12.r1-10800-SMxx50.0
+-vendor/lib/libthermalclient.so|96dd47b988620b785d5450fe9fcbda90d6959270
+-vendor/lib64/libthermalclient.so|ee1654db87e53a986ca68e6b3e6af2264b86b5d7
+vendor/bin/thermal-engine|dcac44ec87aae10821d3aabd80684998a10bdfab
 
 # Time services - from LA.UM.9.2.r1-01800-SDMxx0.0
 -vendor/app/TimeService/TimeService.apk|d8ea5450a8eec829ffe2fd2c43a922793ac22d01
