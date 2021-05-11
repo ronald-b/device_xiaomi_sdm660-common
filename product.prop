@@ -13,6 +13,10 @@ persist.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac
 # Camera
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 
+# Data
+persist.data.df.dev_name=rmnet_usb0
+persist.vendor.data.profile_update=true
+
 # Disable GC freed lines
 dalvik.vm.debug.alloc=0
 
