@@ -601,10 +601,6 @@ PRODUCT_PACKAGES += \
 # WiFi Display JAR
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# Force triple frame buffers
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=3
    
 # IPA
 USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
