@@ -1,0 +1,2 @@
+allow netutils_wrapper netutils_wrapper:capability { kill };
+

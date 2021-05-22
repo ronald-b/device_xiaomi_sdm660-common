@@ -27,7 +27,7 @@ allow hal_fingerprint_sdm660 mnt_user_file:dir search;
 allow hal_fingerprint_sdm660 mnt_user_file:lnk_file r_file_perms;
 allow hal_fingerprint_sdm660 persist_file:dir r_dir_perms;
 allow hal_fingerprint_sdm660 persist_fingerprint_file:file r_file_perms;
-allow hal_fingerprint_sdm660 rootfs:dir read;
+allow hal_fingerprint_sdm660 rootfs:dir { open read write };
 allow hal_fingerprint_sdm660 self:netlink_socket create_socket_perms_no_ioctl;
 allow hal_fingerprint_sdm660 sysfs_devfreq:file r_file_perms;
 allow hal_fingerprint_sdm660 system_data_file:file r_file_perms;
@@ -40,6 +40,8 @@ allow hal_fingerprint_sdm660 vendor_mpctl_prop:file read;
 allow hal_fingerprint_sdm660 vendor_fp_prop:property_service set;
 allow hal_fingerprint_sdm660 vendor_fp_prop:file { getattr open read };
 allow hal_fingerprint_sdm660 sysfs_fingerprint:file { read open write };
+allow hal_fingerprint_sdm660 sysfs_wakeup:file { write read open };
+allow hal_fingerprint_sdm660 sysfs:file { write read open };
 
 binder_call(hal_fingerprint_sdm660, hal_perf_default)
 r_dir_file(hal_fingerprint_sdm660, firmware_file)

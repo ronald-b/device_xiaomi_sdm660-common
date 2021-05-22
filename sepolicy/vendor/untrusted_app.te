@@ -1,0 +1,5 @@
+allow untrusted_app theme_prop:file { open read map getattr };
+allow untrusted_app proc_zoneinfo:file { read open getattr };
+allow untrusted_app app_data_file:file { execute };
+allow untrusted_app proc:file { read open getattr };
+
