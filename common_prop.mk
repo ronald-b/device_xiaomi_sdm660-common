@@ -210,6 +210,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.wfc_avail_ovr=1 \
     persist.vendor.ims.disableUserAgent=0
 
+# IORap app launch prefetching using Perfetto traces and madvise
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.iorapd.enable=true
+
 # LMKD
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.low=1001 \
